@@ -28,8 +28,11 @@ Kanban Board is a lightweight, high-performance task management tool designed to
 | Feature | Description |
 | :--- | :--- |
 | 🌑 **Dark Mode UI** | A modern, eye-friendly dark theme designed for extended use |
-| ➕ **Task Creation** | Quickly add new tasks with a single click |
-| 📊 **Visual Workflow** | Organize tasks across columns (To-Do, In Progress, Done) |
+| ➕ **Task Creation** | Add new tasks via a modal with title & description fields |
+| 🗑️ **Task Deletion** | Remove tasks with a single click — changes persist automatically |
+| 🔀 **Drag & Drop** | Move tasks between columns with smooth drag-and-drop interactions |
+| 💾 **Local Storage** | All tasks persist in the browser — your board survives page refreshes |
+| 📊 **Visual Workflow** | Organize tasks across three columns (To-Do, In Progress, Done) |
 | 📱 **Responsive Design** | Seamlessly adapts to desktop, tablet, and mobile screens |
 | ⚡ **Zero Dependencies** | Pure vanilla implementation — no frameworks, no bloat |
 | 🎨 **CSS Custom Properties** | Themeable design system powered by CSS variables |
@@ -98,6 +101,7 @@ Kanban-Board/
 │
 ├── index.html          # Application entry point & structure
 ├── index.css           # Design system & component styles
+├── index.js            # Core application logic & interactivity
 ├── README.md           # Project documentation
 └── LICENSE             # MIT License
 ```
@@ -121,9 +125,12 @@ The project uses a centralized CSS custom properties system for consistent themi
 
 - [x] Project setup & core layout
 - [x] Dark mode UI with CSS custom properties
-- [ ] Drag-and-drop task management
-- [ ] Local storage persistence
-- [ ] Task editing & deletion
+- [x] Drag-and-drop task management
+- [x] Local storage persistence
+- [x] Task creation via modal
+- [x] Task deletion
+- [x] Live column counters
+- [ ] Task editing (inline)
 - [ ] Column customization
 - [ ] Export/Import board data
 - [ ] PWA support for offline use

@@ -78,9 +78,7 @@ section .task-column {
     display: flex;
     flex-direction: column;
     gap: var(--padding-m);
-    border-radius: var(--border-radius);
-    transition: all 0.9s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .task-column .heading {
@@ -121,3 +119,60 @@ section .task-column.hover-over {
     border: 2px dashed var(--text-color);
     scale: 1.05;
 }
+
+.modal.active {
+    display: flex;
+}
+
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: none;
+    align-items: center;
+}
+
+.modal .center {
+    background-color: var(--bg-color);
+    padding: var(--padding-xxl);
+    border-radius: var(--border-radius);
+    display: flex;
+    flex-direction: column;
+    gap: var(--padding-m);
+    z-index: 10;
+}
+
+.modal .bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(52, 49, 49, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.modal .center input,
+.modal .center textarea,
+.modal .center select {
+    background-color: var(--bg-task-color);
+    border: none;
+    outline: none;
+    color: var(--text-color);
+    padding: var(--padding-m);
+    border-radius: var(--border-radius);
+}
+
+.modal .center button {
+    background-color: var(--bg-task-color);
+    border: none;
+    outline: none;
+    color: var(--text-color);
+    padding: var(--padding-m) var(--padding-l);
+    cursor: pointer;
+    border-radius: var(--border-radius);
+    width: fit-content;
+    align-self: center;
+}
