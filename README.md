@@ -8,8 +8,9 @@
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://kanban-board-cyan-tau.vercel.app/)
 
-[Features](#-features) · [Getting Started](#-getting-started) · [Tech Stack](#%EF%B8%8F-tech-stack) · [Architecture](#-architecture) · [Contributing](#-contributing)
+[Live Demo](https://kanban-board-cyan-tau.vercel.app/) · [Features](#-features) · [Getting Started](#-getting-started) · [Tech Stack](#%EF%B8%8F-tech-stack) · [Architecture](#-architecture) · [Contributing](#-contributing)
 
 </div>
 
